@@ -95,3 +95,17 @@
 **ln -s secret_files/classified classified_link**
 
 <hr>
+
+ ### Part II
+ 1-Sort vegetables.txt.<br>
+ **sort vegetables.txt** <br>
+ 2-Count the number of lines in vegetables.txt.<br>
+ **wc -l vegetables.txt** <br>
+ 3-Create a file called vegetables_sorted.txt which contains all the unique, vegetables sorted in ascending order in vegetables.txt (do this without the touch command)<br>
+ **cat vegetables.txt | sort | uniq > vegetables_sorted**
+ 4-Create a file called last_three.txt which contains the last three vegetables in the vegetables.txt file (do this without the touch command).<br>
+ **cat vegetables.txt | tail -n 3 > last_three.txt**<br>
+ 5-Create a file called last_three.txt which contains the last three vegetables in the vegetables.txt file (do this without the touch command).<br>
+ **cat vegetables.txt | tail -n 3 > last_three.txt**<br>
+ 6-Count the number of lines the word "Broccoli" appears on (using wc and grep).<br>
+ **cat vegetables.txt | grep "Broccoli" | wc -l**
