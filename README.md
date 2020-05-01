@@ -109,3 +109,9 @@
  **cat vegetables.txt | tail -n 3 > last_three.txt**<br>
  6-Count the number of lines the word "Broccoli" appears on (using wc and grep).<br>
  **cat vegetables.txt | grep "Broccoli" | wc -l**
+
+ <hr>
+
+  #### Intermediate Terminal Exercises.
+  
+  
