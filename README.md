@@ -80,7 +80,7 @@
 2-Change the permissions on the restricted.txt file to allow the owner to read and write to the restricted.txt file. Do this using the Octal Notation. <br>
 **chmod 600 restricted.txt**
 3-Change the permissions on the restricted.txt file to only allow the owner, group and everyone to read and write and execute the restricted.txt file. Do this using the Symbolic notation.<br>
-**chmod a+rwx restricted.txt**
+**chmod a+rwx restricted.txt** <br>
 4-Create a folder called secret_files. Inside the secret_files folder create a file called first_secret.txt and another folder called classified. Inside of the classified folder create a file called super_secret.txt.<br>
 **mkdir secret_files<br>**
 **touch secret_files/first_secret.txt<br>**
