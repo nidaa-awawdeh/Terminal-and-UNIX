@@ -96,24 +96,54 @@
 
 <hr>
 
- ### Part II
- 1-Sort vegetables.txt.<br>
- **sort vegetables.txt** <br>
- 2-Count the number of lines in vegetables.txt.<br>
- **wc -l vegetables.txt** <br>
- 3-Create a file called vegetables_sorted.txt which contains all the unique, vegetables sorted in ascending order in vegetables.txt (do this without the touch command)<br>
- **cat vegetables.txt | sort | uniq > vegetables_sorted**
- 4-Create a file called last_three.txt which contains the last three vegetables in the vegetables.txt file (do this without the touch command).<br>
- **cat vegetables.txt | tail -n 3 > last_three.txt**<br>
- 5-Create a file called last_three.txt which contains the last three vegetables in the vegetables.txt file (do this without the touch command).<br>
- **cat vegetables.txt | tail -n 3 > last_three.txt**<br>
- 6-Count the number of lines the word "Broccoli" appears on (using wc and grep).<br>
- **cat vegetables.txt | grep "Broccoli" | wc -l**
+### Part II
+
+1-Sort vegetables.txt.<br>
+**sort vegetables.txt** <br>
+2-Count the number of lines in vegetables.txt.<br>
+**wc -l vegetables.txt** <br>
+3-Create a file called vegetables_sorted.txt which contains all the unique, vegetables sorted in ascending order in vegetables.txt (do this without the touch command)<br>
+**cat vegetables.txt | sort | uniq > vegetables_sorted**
+4-Create a file called last_three.txt which contains the last three vegetables in the vegetables.txt file (do this without the touch command).<br>
+**cat vegetables.txt | tail -n 3 > last_three.txt**<br>
+5-Create a file called last_three.txt which contains the last three vegetables in the vegetables.txt file (do this without the touch command).<br>
+**cat vegetables.txt | tail -n 3 > last_three.txt**<br>
+6-Count the number of lines the word "Broccoli" appears on (using wc and grep).<br>
+**cat vegetables.txt | grep "Broccoli" | wc -l**
 
  <hr>
 
-  #### Intermediate Terminal Exercises.
+#### Intermediate Terminal Exercises.
 
- ### Wildcards with grep:
- 
-  
+#### Part I
+
+1- Create an environment variable called FIRST_NAME and set it equal to your first name (this does not need to be permanent) <br>
+**export FIRST_NAME=Nidaa**<br>
+2-Print the FIRST_NAME variable<br>
+**echo \$FIRST_NAME**<br>
+3-Print out the $PATH variable<br>
+   **echo $PATH**<br>
+4-What is the \$PATH variable?<br>
+**It is a set of paths for our environment to find where to run commands** <br>
+5-Why would you want to create an environment variable?<br>
+**For securing information and using a variable multiple times** <br>
+6-How do you permanently save environment variables?<br>
+**Save them in your .bash_profile or .zshrc**<br>
+7-What is a process?<br>
+**a process is a specific computer program that is being excecuted**<br>
+8-How do you list all processes running on your machine?<br>
+**ps -ax**<br>
+9-What is a PID? <br>
+**A unique identifier for for a process which is necessary when stopping a process**<br>
+10-How do you terminate a process?<br>
+**kill or kill -9** <br>
+11-What is the difference between kill and kill -9? <br>
+**9 is a specific signal ensures that the command can not be ignored, whereas without the -9 there may be processes that are not killed by using kill alone.**
+12-What grep flag allows for case insensitive search?<br>**-i** <br>
+13-What grep flag allows for a certain number of lines before the match?<br>**-B**<br>
+14-What grep flag allows for a certain number of lines around the match?<br>**-C**<br>
+15-What grep flag allows for a certain number of lines after the match?<br>**-A**<br>
+16-What grep flag allows for full word search?<br>**-w**<br>
+17-What grep flag shows you the line number of a match?<br>**-n\*\*<br>
+
+<hr>
