@@ -138,12 +138,12 @@
 10-How do you terminate a process?<br>
 **kill or kill -9** <br>
 11-What is the difference between kill and kill -9? <br>
-**9 is a specific signal ensures that the command can not be ignored, whereas without the -9 there may be processes that are not killed by using kill alone.**
+**9 is a specific signal ensures that the command can not be ignored, whereas without the -9 there may be processes that are not killed by using kill alone.**<br>
 12-What grep flag allows for case insensitive search?<br>**-i** <br>
 13-What grep flag allows for a certain number of lines before the match?<br>**-B**<br>
 14-What grep flag allows for a certain number of lines around the match?<br>**-C**<br>
 15-What grep flag allows for a certain number of lines after the match?<br>**-A**<br>
 16-What grep flag allows for full word search?<br>**-w**<br>
-17-What grep flag shows you the line number of a match?<br>**-n\*\*<br>
+17-What grep flag shows you the line number of a match?<br>**-n**<br>
 
 <hr>
