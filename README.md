@@ -147,3 +147,22 @@
 17-What grep flag shows you the line number of a match?<br>**-n\*\*<br>
 
 <hr>
+
+#### Part II
+
+1-Find all files inside the Desktop folder that have a name of "learn." <br>
+**find ~/Desktop -name "learn"** <br>
+2-Find all files inside the Desktop folder that start with a "P."<br>
+**find ~/Desktop -name "P.\*" ** <br>
+3-Find all files inside the Desktop folder that end with .txt <br>
+**find ~/Desktop -name "\*.txt"**
+4-Find all files inside the Desktop/views folder that have the name data somewhere in their filename<br>
+**find ~/Desktop/views -name "_data_"** <br>
+5-Inside of the instructors.txt file, output the number of times the word "Elie" appears.<br>
+**grep -c "Elie" instructors.txt** <br>
+6-Inside of the instructors.txt file, list all matches for any full word that starts with a capital "P."<br>
+**grep -w "P.\*" instructors.txt** <br>
+7-Inside of the instructors.txt file, list all the line numbers for any full word that starts with a "z" (it should match regardless of upper or lower case) <br>
+**grep -ni "z.\*" instructors.txt**
+
+<hr>
